@@ -1,5 +1,9 @@
 # Create-Web-Application-WIth-Python
 
+source ./venv/bin/activate
+
+================================
+
 sudo apt install python-virtualenv
 
 
