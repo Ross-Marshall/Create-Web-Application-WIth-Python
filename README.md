@@ -1,5 +1,7 @@
 # Create-Web-Application-WIth-Python
 
+before running VM
+
 source ./venv/bin/activate
 
 =================================
