@@ -18,6 +18,6 @@ def show():
         if request.form.get('createnote'):
             text = request.form.get('notetext')
 
-            return random_string()
+            with open ('../notes/{}.note'.format(random_string)))
 
     return render_template('createnote.html')
