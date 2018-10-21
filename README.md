@@ -2,7 +2,7 @@
 
 source ./venv/bin/activate
 
-================================
+=================================
 
 sudo apt install python-virtualenv
 
