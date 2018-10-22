@@ -18,6 +18,9 @@ def show():
         if request.form.get('createnote'):
             text = request.form.get('notetext')
 
-            with open ('../notes/{}.note'.format(random_string)))
+            with open ('/me/code/python/WebApplication/noteapp/noteapp/notes/{}.note'.format(random_string())) as _file:
+                _file.write(text)
+
+            _file.close()
 
     return render_template('createnote.html')
