@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, redirect
 import random
 
 bp = Blueprint(__name__, __name__, template_folder='templates')
@@ -18,9 +18,11 @@ def show():
         if request.form.get('createnote'):
             text = request.form.get('notetext')
 
-            with open ('/me/code/python/WebApplication/noteapp/noteapp/notes/{}.note'.format(random_string())) as _file:
+            with open ('../noteapp/notes/{}.note'.format(random_string()), 'w+') as _file:
                 _file.write(text)
 
             _file.close()
+  
+            return redirect('/')        
 
     return render_template('createnote.html')
