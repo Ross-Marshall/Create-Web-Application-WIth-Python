@@ -1,5 +1,9 @@
 # Create-Web-Application-WIth-Python
 
+Need __init__.py in all sub directories you are importing from
+
+================================
+
 Before running VM
 
 source ./venv/bin/activate
