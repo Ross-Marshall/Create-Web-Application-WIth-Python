@@ -1,5 +1,9 @@
 # Create-Web-Application-WIth-Python
 
+Reload the Cache in Chrome:  [CTRL] + [SHIFT] + [R], [CTRL] + [SHIFT] + [R]
+
+=====================================
+
 Need __init__.py in all sub directories you are importing from
 
 ================================
