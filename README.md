@@ -1,6 +1,6 @@
 # Create-Web-Application-WIth-Python
 
-Reload the Cache in Chrome:  [CTRL] + [SHIFT] + [R], [CTRL] + [SHIFT] + [R]
+Reload the Cache in Chrome:  [CTRL] + [SHIFT] + [R]
 
 =====================================
 
